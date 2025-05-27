@@ -11,15 +11,15 @@
                 </a>
             </li>
             <li class='py-1'>
-                <a href='{{ route('admin.home') }}'
-                    class='btn btn-outline-light rounded-0 text-start border-0 {{ Request::is('admin/drafts') || Request::is('admin/drafts/*') ? 'active' : '' }}'>
-                    <i class='fa-solid fa-book'></i> Minutas
+                <a href='{{ route('admin.employees.index') }}'
+                    class='btn btn-outline-light rounded-0 text-start border-0 {{ Request::is('admin/employees') || Request::is('admin/employees/*') ? 'active' : '' }}'>
+                    <i class='fa-solid fa-book'></i> Empleados
                 </a>
             </li>
             <li class='py-1'>
-                <a href='{{ route('admin.home') }}'
-                    class='btn btn-outline-light rounded-0 text-start border-0 {{ Request::is('admin/keys') || Request::is('admin/keys/*') ? 'active' : '' }}'>
-                    <i class="fa-solid fa-key"></i> LLaves
+                <a href='{{ route('admin.attendances.index') }}'
+                    class='btn btn-outline-light rounded-0 text-start border-0 {{ Request::is('admin/attendances') || Request::is('admin/attendances/*') ? 'active' : '' }}'>
+                    <i class="fa-solid fa-key"></i> Asistencia
                 </a>
             </li>
         </ul>
