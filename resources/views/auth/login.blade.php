@@ -9,8 +9,6 @@
                     <img src="{{ asset('images/veLogo.png') }}" class="mb-2" width="100" height="120"
                         class="d-inline-block" />
                     <br />
-                    <small class="p-0 m-0">¡La seguridad tambien depende de usted!</small>
-                    <hr class="mt-0 w-85" />
                 </div>
                 <div class="card-body text-muted pt-3">
                     <form action="{{ route('login') }}" method="POST">
